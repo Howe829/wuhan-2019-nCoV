@@ -22,7 +22,7 @@ from wuhanncov.check_loop import CheckLoop
 from wuhanncov.dingxiangyuan import DingXiangYuan
 from wuhanncov.fenghuang import FengHuang
 from wuhanncov.wangyi import WangYi
-from wuhanncov.yangshixinwen import YanShiXinWen
+from wuhanncov.yangshixinwen import YangShiXinWen
 
 
 def main():
@@ -35,4 +35,4 @@ def main():
     print("                   Hope You Safe!")
     print("-------------------------------------------------------")
 
-    CheckLoop([DingXiangYuan(), WangYi(), YanShiXinWen(), FengHuang()]).start()
+    CheckLoop([DingXiangYuan(), WangYi(), YangShiXinWen(), FengHuang()]).start()
