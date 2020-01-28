@@ -1,7 +1,7 @@
 import os
 
 
-# [sudo] gem install terminal-notifier
+# [sudo] gem install notify-send
 def notify(summary, body, time:int):
     if os.name == 'posix':
         i = "-i {}".format("/".join(os.getcwd().split('/')[:-1])+'/arts/warning.png')

@@ -22,7 +22,7 @@ from wuhanncov.check_loop import CheckLoop
 from wuhanncov.dingxiangyuan import DingXiangYuan
 from wuhanncov.fenghuang import FengHuang
 from wuhanncov.wangyi import WangYi
-from wuhanncov.yanshixinwen import YanShiXinWen
+from wuhanncov.yangshixinwen import YanShiXinWen
 
 
 def main():

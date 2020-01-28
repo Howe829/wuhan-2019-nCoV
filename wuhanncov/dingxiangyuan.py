@@ -159,7 +159,7 @@ class EventList:
             # print "test--------------"
 
             if self.last_top_event_cache is not None and self.last_top_event_cache == change_top:
-                print "wrong last[%s] change[%s] == " % (self.last_top_event_cache, new_top)
+                print ("wrong last[%s] change[%s] == " % (self.last_top_event_cache, new_top))
                 discard_event = None
                 for change_event in change_list:
                     if change_event.get_title() == self.last_top_event_cache:
@@ -232,7 +232,7 @@ class Summary:
 
 class DingXiangYuan:
     def __init__(self):
-        print colorize("丁香园实时: ", fg=YELLOW) + "https://3g.dxy.cn/newh5/view/pneumonia"
+        print (colorize("丁香园实时: ", fg=YELLOW) + "https://3g.dxy.cn/newh5/view/pneumonia")
 
     @staticmethod
     def fetch():
